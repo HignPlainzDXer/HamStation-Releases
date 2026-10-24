@@ -1,15 +1,14 @@
 # HamStation
 
-HamStation 0.59
-
 Download HamStation-Setup-0.59.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
 
-Grey line on the maps: the daytime map where the sun is up, the city-lights night map where it's down, and a soft twilight band between. Switch it off with ⚙ in the tab row.
-Cluster list sorting: click a column heading to sort, and click again to reverse. The band filter now includes a Radio's band choice that follows your radio.
-Contest auto-fill: as you type a call, the exchange fills in from earlier QSOs, earlier contests, QRZ, and cty.dat (zones, sections). Filled values are dimmed until you type over them.
-Mic EQ for the FTDX101D / FTDX101MP: the EQ button now works on these radios, not just the FT-891.
-Waterfall color and gain: new WF (color scheme) and WF gain controls on the panadapter toolbar.
-User manual: a full manual with screenshots of every feature.
+What's new in 0.59:
+- Grey line on the maps: the daytime map where the sun is up, the city-lights night map where it's down, and a soft twilight band between. Switch it off with the gear button in the tab row.
+- Cluster list sorting: click a column heading to sort, and click again to reverse. The band filter has a new "Radio's band" choice that follows your radio.
+- Contest auto-fill: as you type a call, the exchange fills in from earlier QSOs, earlier contests, QRZ and cty.dat (zones, sections). Filled values are dimmed until you type over them.
+- Mic EQ for the FTDX101D / FTDX101MP: the EQ button now works on these radios, not just the FT-891.
+- Waterfall colour and gain: new WF (colour scheme) and WF gain controls on the panadapter toolbar.
+- User manual: a full manual with screenshots of every feature.
 ===============================================================================================================================================
 New in 0.58
 
