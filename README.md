@@ -1,4 +1,14 @@
 # HamStation
+HamStation 0.59
+Download HamStation-Setup-0.59.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+New
+Grey line on the maps: the daytime map where the sun is up, the city-lights night map where it's down, and a soft twilight band between. Switch it off with ⚙ in the tab row.
+Cluster list sorting: click a column heading to sort, and click again to reverse. The band filter now includes a Radio's band choice that follows your radio.
+Contest auto-fill: as you type a call, the exchange fills in from earlier QSOs, earlier contests, QRZ, and cty.dat (zones, sections). Filled values are dimmed until you type over them.
+Mic EQ for the FTDX101D / FTDX101MP: the EQ button now works on these radios, not just the FT-891.
+Waterfall color and gain: new WF (color scheme) and WF gain controls on the panadapter toolbar.
+User manual: a full manual with screenshots of every feature.
+===============================================================================================================================================
 New in 0.58
 
 Contests
@@ -7,14 +17,14 @@ Contests
 
 DX alerts
 - Spot alerts fade away after 15 seconds.
-- Alerts pause while a contest log is open (no burst afterwards).
+- Alerts pause while a contest log is open (no burst afterward).
 
 Display
 - Classic skin: analog S-meter in the Yaesu style (dark face, white scale,
   red needle).
 - The green home-station dot is gone from the map behind the panadapter.
 
-Install: download HamStation-Setup-0.58.exe below, run it, click Next.
+Install: download HamStation-Setup-0.58.exe below, run it, and click Next.
 Your logbook and settings are kept.
 
 **HamStation** is a ham radio station program for Windows by **K0BF**, shared with the
@@ -23,7 +33,7 @@ panadapter, contest logging, DXpedition alerts, and QRZ.com / LoTW uploads, all 
 
 You don't need a GitHub account to download it.
 
----
+====================================================================================================
 
 ## Download and install (about 2 minutes)
 
@@ -43,7 +53,7 @@ You don't need a GitHub account to download it.
 3. Optional: add your **QRZ.com** login and Logbook API key under **QRZ** to look up calls
    and upload QSOs.
 
-That's it. Your settings and logbook are kept on your own computer.
+That's it. Your settings and logbook stay on your computer.
 
 ## Updating
 
