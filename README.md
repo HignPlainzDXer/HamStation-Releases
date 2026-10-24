@@ -1,4 +1,21 @@
 # HamStation
+New in 0.58
+
+Contests
+- In a contest, the entry clears when you tune more than 1 kHz away from
+  where you started typing a call (like N1MM). Clicking a spot doesn't clear it.
+
+DX alerts
+- Spot alerts fade away after 15 seconds.
+- Alerts pause while a contest log is open (no burst afterwards).
+
+Display
+- Classic skin: analog S-meter in the Yaesu style (dark face, white scale,
+  red needle).
+- The green home-station dot is gone from the map behind the panadapter.
+
+Install: download HamStation-Setup-0.58.exe below, run it, click Next.
+Your logbook and settings are kept.
 
 **HamStation** is a ham radio station program for Windows by **K0BF**, shared with the
 **DX Sharks** and friends: rig control, logging, DX cluster and POTA spots, maps, a
