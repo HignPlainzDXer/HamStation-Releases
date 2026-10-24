@@ -1,5 +1,7 @@
 # HamStation
+
 HamStation 0.59
+
 Download HamStation-Setup-0.59.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
 New
 Grey line on the maps: the daytime map where the sun is up, the city-lights night map where it's down, and a soft twilight band between. Switch it off with ⚙ in the tab row.
