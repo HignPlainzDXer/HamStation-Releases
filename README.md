@@ -3,7 +3,7 @@
 HamStation 0.59
 
 Download HamStation-Setup-0.59.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
-New
+
 Grey line on the maps: the daytime map where the sun is up, the city-lights night map where it's down, and a soft twilight band between. Switch it off with ⚙ in the tab row.
 Cluster list sorting: click a column heading to sort, and click again to reverse. The band filter now includes a Radio's band choice that follows your radio.
 Contest auto-fill: as you type a call, the exchange fills in from earlier QSOs, earlier contests, QRZ, and cty.dat (zones, sections). Filled values are dimmed until you type over them.
