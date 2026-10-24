@@ -9,7 +9,9 @@ What's new in 0.59:
 - Mic EQ for the FTDX101D / FTDX101MP: the EQ button now works on these radios, not just the FT-891.
 - Waterfall colour and gain: new WF (colour scheme) and WF gain controls on the panadapter toolbar.
 - User manual: a full manual with screenshots of every feature.
-===============================================================================================================================================
+=========================================================================================
+
+
 New in 0.58
 
 Contests
