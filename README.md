@@ -1,5 +1,49 @@
 # HamStation
 
+Download HamStation-Setup-0.60.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+HamStation 0.60
+
+New in this version:
+
+FT8 audio waterfall
+- On FT8 or FT4 the panadapter turns into an audio waterfall from the radio's USB codec, drawn like WSJT-X's Wide Graph: 0-3500 Hz scale, sharp lines, green 15 s period lines with time and band, WSJT-X's RX (green) and TX (red) markers.
+- WSJT-X's decodes are written into the waterfall where they were heard. Click a call to answer it in WSJT-X; click anywhere else to move WSJT-X's RX frequency there.
+- Audio WF in the panadapter bar: Auto (switches on FT8 / FT4), Always or Off. Four colour schemes: WSJT-X, Linrad blue, Fire, Greyscale.
+- WSJT-X needs Settings > Reporting > "Accept UDP requests" ticked for click-to-call and click-to-set-RX.
+
+fldigi link
+- HamStation can be fldigi's logbook server. In fldigi: Configure > Config Dialog > Misc > TCP-IP sessions, fllog row: Addr 127.0.0.1, Port 8421, then Reconnect. QSOs logged in fldigi land in HamStation, and fldigi's dupe check and name / QTH look-up use HamStation's log.
+- Settings: the WSJT-X tab is now called Digital, with Rig control, WSJT-X and Fldigi sub-tabs.
+
+Radio panel
+- PO, ALC and SWR meters with scales while transmitting, on Yaesu, Icom and Hamlib radios.
+
+Panadapter
+- POTA activators shown in cyan with the cluster spots (POTA box in the bar to turn them off).
+- The world map behind the scope has been removed.
+
+DX cluster
+- Mode filter on the Clusters tab: All, Radio's mode, CW, Phone, Digital, FT8, FT4.
+- Time filter: last 5 / 15 / 30 minutes, hour or 3 hours.
+- DX cluster node dropdown in Settings.
+- Fix: VE7CC (and other nodes ending spot lines with beeps) showed no spots. Please update if you use VE7CC.
+- While a contest is open, greyed-out "worked" spots mean worked in this contest.
+
+DXpeds tab
+- Cluster spots of each DXpedition from the last hour: a Spotted filter, and click a call to see its spots (click one to tune).
+
+Maps
+- QSO map and 3D globe: show the current QSO, last 10, your last run, last 24 hours or last week. Maps are centred on your grid.
+- Flat maps zoom right down to ground detail like the globe.
+
+Contests
+- ARRL School Club Roundup with its full exchange.
+
+Layout
+- The main window fits the screen without scrolling: clock above the radio panel on the left, QSO entry and map to the right, panadapter across the bottom.
+- FT8 Call Roster: click a column heading to sort A-Z, again for Z-A.
+===================================================================================================================================
+
 Download HamStation-Setup-0.59.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
 
 What's new in 0.59:
