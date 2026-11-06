@@ -1,6 +1,38 @@
 # HamStation
 
 Download HamStation-Setup-0.60.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+HamStation 0.61
+
+New in this version:
+
+Built-in FT8 decoder
+- HamStation can decode FT8 itself from the radio's receive audio, with no WSJT-X running. Turn it on in Settings > Digital > FT8 decoder.
+- Its decodes feed the FT8 Call Roster, PSK Map and waterfall labels just like WSJT-X's. Answering a station still needs WSJT-X for now.
+- The FT8 Call Roster and PSK Map tabs only show while you're on an FT8 frequency (or WSJT-X is connected).
+
+Alerts
+- New Alerts tab: add callsigns to watch, see the latest spot of each one, and a history of the alerts you've had. Click a spot to tune to it.
+- Star any call in the cluster or POTA spot lists to watch it. Alerts now come from cluster and POTA spots, not just DXpeditions.
+- Type a park reference (like US-9626) in the comment and the QSO is logged as a POTA contact.
+
+Panadapter
+- The FT8 audio waterfall keeps its own gain, so switching between it and the SDR waterfall no longer means resetting the gain each time.
+- Clicking the scope tunes to the nearest 500 Hz.
+
+Logging
+- Fix: WSJT-X QSOs were sometimes logged twice.
+- WSJT-X QSOs now get the station's name and QTH from QRZ (or from your last QSO with them).
+- The log table has separate City and State columns. Long names and places are shortened, with the full text on hover.
+- Portable calls with a slash (JA2MAX/P, AG4V/R) now get their QRZ look-up, country and worked-before info.
+- The entry form shows a bearing line under the call info.
+
+POTA
+- Spot POTA activators on pota.app from HamStation.
+
+Other
+- The tuning step starts at 500 Hz.
+- HamStation's window opens about a second faster.
+
 HamStation 0.60
 
 New in this version:
