@@ -1,6 +1,44 @@
 # HamStation
 
 Download HamStation-Setup-0.60.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+
+HamStation 0.62
+
+New in this version:
+
+CW decoder
+- HamStation's own CW decoder copies up to six signals at once from the radio's receive audio, in CW or DATA-U. Turn it on in Settings > CW.
+- Each signal gets its own line with its tone and speed. Text shows about a second after it's sent and firms up two seconds behind real time.
+- Click a callsign in the text to put it in the QSO entry.
+
+CW waterfall
+- The CW tab has its own waterfall, 200 to 2800 Hz, with each decoded signal marked on the scale and your sending tone as a red bracket.
+- Click a signal to send on it. In CW mode the click retunes the radio so you land right on the other station.
+- Very strong signals no longer leave ghost copies far down the waterfall when the radio's narrow CW filter is on.
+
+CW keyer
+- Send CW from F1-F12 macros or by typing. WPM (PageUp / PageDown), Practice on the PC speakers, Tune, and Esc stops sending anywhere.
+- Sends in real CW mode by keying the radio's second USB port (DTR or RTS), or as an audio tone in DATA-U. Pick the keying port in Edit macros > Sending in CW mode.
+- In CW mode HamStation lengthens the radio's break-in delay for each over and puts it back afterwards, so the relay doesn't chatter.
+- The radio's CW pitch is read from the radio (Yaesu).
+- Macro help: a button in Edit macros explains every macro field in plain words, shows what each holds right now, and gives ready-made examples. Each macro shows a "Sends now" line.
+- POTA macro set: quick park exchanges with your report and state, plus thanks-and-log, hunter report and park to park. Set My state and My park in Edit macros.
+
+Gold stars for confirmed QSOs
+- QSOs confirmed on LoTW or QRZ get a gold star next to their green check in the Log tab.
+- Enter your LoTW website login in Settings > LoTW (Test login checks it). HamStation checks LoTW every 6 hours by itself; the star-arrow button above the log checks now.
+- The first LoTW check reads every confirmation you've ever had and can take 20-30 minutes. After that each check takes seconds.
+
+Radio
+- Optional: switch the radio on when HamStation starts and off when it closes (Settings > Radio > Connection).
+
+Fixes
+- HamStation could freeze (no waterfall, no decoding) if the logbook got locked while a QRZ lookup was saving. The logbook now uses a safer mode and this can't happen any more.
+
+User manual
+- The manual is updated for everything new since 0.58, with new screenshots: CW decoder and keyer, FT8 decoder and audio waterfall, Alerts tab, fldigi link, gold stars and more.
+---------------------------------------------------------------------------------------------------------------------------------
+
 HamStation 0.61
 
 New in this version:
@@ -32,6 +70,7 @@ POTA
 Other
 - The tuning step starts at 500 Hz.
 - HamStation's window opens about a second faster.
+- ---------------------------------------------------------------------------------------------
 
 HamStation 0.60
 
