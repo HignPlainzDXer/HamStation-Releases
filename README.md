@@ -1,6 +1,6 @@
 # HamStation
 
-Download HamStation-Setup-0.60.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+Download HamStation-Setup-0.62.5.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
 HamStation 0.62.5
 
 Fix:
