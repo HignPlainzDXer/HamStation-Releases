@@ -1,6 +1,17 @@
 # HamStation
 
 Download HamStation-Setup-0.60.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+HamStation 0.62.5
+
+Fix:
+
+CW keyer relay chatter
+- When sending CW in CW mode, the radio's T/R relay chattered on the first letter of every over before settling down.
+- With the radio's break-in switched on, the key now brings the transmitter up by itself, the same way a paddle does, and HamStation holds a longer break-in delay for the over so the relay closes once and stays closed. Your break-in delay is restored afterward.
+- With break-in off, HamStation switches the radio to transmit over CAT as before, and now waits until the radio says it is transmitting before the first dit.
+
+Everything else is the same as 0.62.
+-----------------------------------------------------
 
 HamStation 0.62
 
