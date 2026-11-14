@@ -1,6 +1,40 @@
 # HamStation
 
-Download HamStation-Setup-0.62.5.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+Download HamStation-Setup-0.63.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+
+HamStation 0.63
+
+New:
+
+RTTY, in a new Digi Modes tab
+- A new Digi Modes tab holds the newer digital modes under one tab, so the tab bar doesn't keep growing. RTTY is there now; PSK31 and SSTV are coming soon.
+- Click a signal on the waterfall to copy it: HamStation snaps onto its two tones. Shift+click puts the centre exactly where you click.
+- Standard 45 baud, 170 Hz shift RTTY. Reverse for a station sending upside down, and a Gate setting that keeps noise from printing junk.
+- Send from F1-F12 macros or type ahead. It sends as audio in DATA-U, and what you send shows in red in the text. Click a callsign in the text to put it in the QSO entry.
+- Tune sends a steady tone for 10 seconds to set power and ALC. Esc stops sending.
+
+Hotkeys and foot pedal PTT (Settings, Hotkeys)
+- Pick a key to use as PTT, hold to talk or press to toggle. Space works anywhere in the app, even after clicking a spot or the cluster.
+- USB foot pedals work, either set to send a key (F13-F24 are best) or as a game controller button.
+- Shortcut keys for band up and down, next mode, new QSO and QRZ lookup, and Alt+1-9 for the tabs. All of them can be changed.
+- For safety PTT lets go when the HamStation window loses focus, and the radio unkeys if the key stops reporting in.
+
+Run and S&P macros
+- The CW keyer and RTTY macros now come in two sets: Run (calling CQ) and S&P (answering stations). On the POTA set they are Activator and Hunter.
+- Switch with the buttons next to the macro set, or Alt+R. Each side has its own F1-F12 you can edit.
+- Your existing macros became the Run (Activator) side, so nothing you set up was lost.
+
+Fixes:
+
+CW decoder
+- After you retune onto a new signal, the decoder now picks it up right away instead of taking up to half a minute.
+
+CW keyer on the FTDX101
+- HamStation lengthens the radio's break-in delay while it sends, so the relay closes once for the over instead of clicking between letters. The FTDX101 only accepts that delay in 10 ms steps and was turning it down; it now gets a value it accepts.
+- If a radio still keeps its own delay, a yellow note under the macros says so and what to set it to.
+
+
+---------------------------------------------------------------------------
 HamStation 0.62.5
 
 Fix:
