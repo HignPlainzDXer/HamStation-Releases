@@ -1,6 +1,20 @@
 # HamStation
 
-Download HamStation-Setup-0.63.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+Download HamStation-Setup-0.63.1.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+
+HamStation 0.63.1
+
+New:
+
+RTTY contest macros
+- When a contest is open (one that isn't CW-only or phone-only), the RTTY panel now brings up a macro set for that contest by itself. A picker next to Run / S&P switches back to General.
+- The set is built from the contest's own exchange, so it sends the right thing for ARRL RTTY Roundup, CQ WW RTTY, CQ WPX RTTY, NAQP RTTY and the rest.
+- Each contest has its own Run and S&P sides. Run: F1 CQ, F2 exchange, F3 TU and log. S&P: F1 your call, F2 TU plus your exchange and log.
+- Edit them with Edit macros; your changes are kept for that contest only.
+- New macro field {EX}: your exchange without the RST, so a macro can send "599 CO CO" the usual RTTY way.
+
+Everything else is the same as 0.63.
+-----------------------------------------------------------------------
 
 HamStation 0.63
 
