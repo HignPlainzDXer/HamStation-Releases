@@ -1,6 +1,27 @@
 # HamStation
 
-Download HamStation-Setup-0.63.1.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+Download HamStation-Setup-0.63.2.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+
+HamStation 0.63.2
+
+New:
+
+Click a received number to log it
+- While a contest with a serial number or zone is open, numbers in the decoded RTTY and CW text are clickable (cyan, dotted underline), the same way callsigns are.
+- Click one and it goes into the received Nr (or Zone) box of the QSO entry. 599 and 5NN are left alone, and CW cut numbers like 1T go in as 10.
+
+Worked All Europe contests
+- WAE CW, SSB and RTTY are now built in, with RST and a serial number. The serial counts up by itself (001, 002, 003...) and the received serial is logged.
+- A WAE contest you already set up from the N1MM contest list picks this up by itself.
+- QTC traffic is not handled.
+
+Fixes:
+
+RTTY QSOs logged as FT8
+- HamStation sends RTTY with the radio in DATA-U, and DATA-U was logged as FT8 with a -10 report. While HamStation's RTTY is in use (the panel is up, or was in the last 30 minutes, or the open contest is an RTTY one) it now logs RTTY with 599.
+
+Everything else is the same as 0.63.1.
+------------------------------------------------------
 
 HamStation 0.63.1
 
