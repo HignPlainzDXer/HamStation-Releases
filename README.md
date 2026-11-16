@@ -1,6 +1,20 @@
 # HamStation
 
 Download HamStation-Setup-0.63.2.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+----------------------------------------------------------------------
+
+HamStation 0.63.5
+
+New:
+
+The SDR scope shows the CW or digital part of the band
+- While the CW tab is open, the panadapter shows just the CW part of the band you're on (20 m: 14.000-14.070). While the Digi tab is open, it shows the digital part (20 m: 14.070-14.112, where FT8 and RTTY are).
+- It only does this while the radio is tuned inside that part. Tune outside it, or go to another tab, and the scope goes back to your usual span.
+- A Segment checkbox on the panadapter bar, next to AGC, turns it off.
+- Not used with the FT-710's own scope.
+
+Everything else is the same as 0.63.2.
+-----------------------------------------------------------------------------------------
 
 HamStation 0.63.2
 
