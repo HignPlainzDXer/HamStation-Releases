@@ -1,7 +1,61 @@
 # HamStation
 
-Download HamStation-Setup-0.63.2.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
+Download HamStation-Setup-0.64.exe below and run it. It installs over your current HamStation and keeps your logbook and settings.
 ----------------------------------------------------------------------
+HamStation 0.64
+
+New:
+
+SSTV (slow-scan TV), in the Digi Modes tab
+- Receive pictures in Martin 1 and 2, Scottie 1, 2 and DX, Robot 36 and 72, and PD 50 to PD 290. A picture starts by itself when its header is heard and draws in line by line, kept straight even if the other station's sound card runs a little fast or slow.
+- Missed the start? Pick the mode and click Start. Skip ends a picture early. Keep listening goes on receiving with the tab closed.
+- Every picture you receive or send goes into a gallery. Click one to look at it, save it, delete it, or keep it with a call.
+- Send pictures the MMSSTV way: pick from My pictures, choose a style (Classic, CQ, Reply, Banner, Border, QSL card), add a frame, and drag your text where you want it, in any font, size and colour. {CALL}, {RST}, {NAME} and more fill in from the QSO entry.
+- Reply to a picture by putting theirs into yours (Their picture in mine): the newest one received, or one you pick in the gallery.
+- When you log an SSTV QSO, the pictures of that QSO are kept with it. A camera in the log shows every picture with that call.
+- The Digi Modes tab now also shows in USB on the SSTV frequencies (14.230 and friends).
+
+PSK31 and PSK63, in the Digi Modes tab
+- Click a signal on the waterfall to copy it. AFC follows a drifting signal and a Gate keeps noise from printing junk.
+- Send from F1-F12 macros or by typing, like RTTY. PSK has its own macros and keeps lower case.
+- QSOs log as PSK31 (or PSK63).
+
+A Level slider for RTTY, PSK and SSTV
+- Sets the audio going into the radio, like WSJT-X's Pwr slider, and works while you transmit. The FT-891 has no ALC knob, so press Tune and slide it down until the ALC shown next to it stays near 0.
+
+Contest multipliers on maps
+- The Mults tab shows your multipliers on maps instead of a long list: countries, CQ zones, states, every ARRL and RAC section, and grids. Worked ones light up green.
+- Hover over one to see where you've worked it; click a pink one to tune to it.
+- A spot that would be a new multiplier is marked NEW MULT in the cluster, flashes pink on the map and raises an alert, like rare DX.
+- Canadian sections: GH (Golden Horseshoe), ER (the Territories) and NB and NS (no more MAR).
+
+Contest logging
+- The exchange you're sending is shown large, with the serial number highlighted.
+- The radio's memory buttons (M1-M5) are in the New QSO panel.
+- Contest voice keyer: your own recordings, with the serial number spoken for you.
+- Real exchanges for every contest in N1MM's list, including full Sweepstakes layouts.
+
+Spots and log
+- The cluster spot on the radio's frequency is highlighted in green, and a dupe is highlighted in the log.
+- The Log tab now has pages: 200 QSOs a page with newest, newer, older and oldest buttons, so you can see your whole log.
+
+Other
+- Pop-out windows for each panel, and the map window can show one, two or four panes.
+- The CW tab shows only in CW or DATA, and the Digi Modes tab only in DATA (or USB on SSTV frequencies).
+- FT8 roster: a State column, and double-click calls the station through WSJT-X.
+- HamStation Mobile can now sync contest logs from the PC.
+
+Fixes:
+- The FT8 decoder reopens the sound card if its audio stops or goes silent.
+- The CW decoder no longer prints extra blank lines around a strong station.
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
 
 HamStation 0.63.5
 
